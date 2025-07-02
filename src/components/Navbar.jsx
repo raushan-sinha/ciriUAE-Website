@@ -1,7 +1,10 @@
+import React, { useState } from 'react';
 import './Navbar.css'
 import CiriUAE from '../assets/ciriUAE-Img.png'
 
 function Navbar() {
+    const [menuOpen, setMenuOpen] = useState(false);
+
     //todo: Navbar Links -
     const navLinks = [
         { href: '#home', text: 'Home' },
@@ -10,6 +13,9 @@ function Navbar() {
         { href: '#careers', text: 'Careers' },
         { href: '#contact', text: 'Contact' }
     ];
+
+    const handleHamburgerClick = () => setMenuOpen(prev => !prev);
+    const handleLinkClick = () => setMenuOpen(false);
 
     return (
         <>
@@ -29,7 +35,11 @@ function Navbar() {
                     </ul>
 
                     {/* Hamburger Menu */}
-                    <div className="hamburger" id="hamburger">
+                    <div
+                        className={`hamburger${menuOpen ? ' active' : ''}`}
+                        id="hamburger"
+                        onClick={handleHamburgerClick}
+                    >
                         <span></span>
                         <span></span>
                         <span></span>
@@ -38,10 +48,12 @@ function Navbar() {
             </nav>
 
             {/* Mobile Menu */}
-            <div className="mobile-menu" id="mobileMenu">
-                <ul className="nav-links">
+            <div className={`mobile-menu${menuOpen ? ' active' : ''}`} id="mobileMenu">
+                <ul className="mobile-nav-links">
                     {navLinks.map((link, idx) => (
-                        <li key={idx}><a href={link.href}>{link.text}</a></li>
+                        <li key={idx}>
+                            <a href={link.href} onClick={handleLinkClick}>{link.text}</a>
+                        </li>
                     ))}
                 </ul>
             </div>

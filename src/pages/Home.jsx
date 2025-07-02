@@ -1,7 +1,40 @@
 import Navbar from '../components/Navbar'
 import './Home.css'
-
+import { FaXTwitter, FaWhatsapp, FaLinkedin, FaEnvelope } from 'react-icons/fa6'
+import { TbSocial } from "react-icons/tb";
 function Home() {
+  //todo: Social Media links -
+  const socialMediaLinks = [
+    {
+      icon: <FaXTwitter />,
+      url: 'https://x.com/CiriUAE',
+      title: 'Follow us on X',
+      color: '#fff',
+      fontSize: '30px'
+    },
+    {
+      icon: <FaWhatsapp />,
+      url: 'https://wa.me/971501234567',
+      title: 'Chat on WhatsApp',
+      color: '#25d366',
+      fontSize: '30px'
+    },
+    {
+      icon: <FaLinkedin />,
+      url: 'https://www.linkedin.com/company/ciri-uae',
+      title: 'Follow us on LinkedIn',
+      color: '#0077b5',
+      fontSize: '30px'
+    },
+    {
+      icon: <FaEnvelope />,
+      url: 'mailto:INQUIRY@CIRIUAE.COM',
+      title: 'Send us an email',
+      color: '#ea4335',
+      fontSize: '30px'
+    }
+  ]
+
   return (
     <>
       <Navbar />
@@ -110,157 +143,142 @@ function Home() {
       {/* Section 3: Services */}
       <section id="services" className="section services-section">
         <div className="container">
-          <div className="flex-container">
-            <div className="image-box">
-              <div className="mobile-slider">
-                <img src="https://scontent.fpat3-1.fna.fbcdn.net/v/t1.15752-9/514127334_1679515046092381_995996042886721923_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=TetZodrYpfkQ7kNvwHCTtq-&_nc_oc=AdmC7FBKO4zQX9OVmLaQwW2YHGCsBaZEIonlZjFcN0VYNc0DXbgmJL4v0fsnOg1cmOc&_nc_ad=z-m&_nc_cid=2034&_nc_zt=23&_nc_ht=scontent.fpat3-1.fna&oh=03_Q7cD2gHLiWqgSHv9CXOVG1_Tkkh0LC1rEs06OeuH6rBz65qDJA&oe=688B7AAA" alt="CiriUAE Services" className="section-image" />
+          <h2 className="section-title center">Our Services</h2>
+          <p className="services-intro">
+            We provide comprehensive business solutions tailored to your specific needs. Our expert team delivers strategic guidance and innovative approaches to help your organization achieve sustainable growth and competitive advantage.
+          </p>
+
+          <div className="services-content-grid-new">
+            <div className="service-content-card">
+              <div className="service-icon">
+                <img src="https://scontent.fpat2-1.fna.fbcdn.net/v/t1.15752-9/509303090_764737512885971_2968192881401211672_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s480x480&_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=JEdqRz4jtOQQ7kNvwE8iwW1&_nc_oc=Adnj2uOccEbIDQKrhIgspOsdVBVK7wuW2bOcvFnbNFrTzBNZJTT1gwCm13TlxFpWg4M&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-1.fna&oh=03_Q7cD2gEI1zhwM1qVmzijpk_8jdkagHPft4FFw8iQ8gWXAU8qkg&oe=688C582D" alt="Marketing Strategy Icon" className="service-image" />
+                <div className="emoji-overlay">📈</div>
               </div>
+              <h3>Marketing Strategy</h3>
+              <p className="service-description">
+                We craft data-driven, market-specific marketing strategies that align with your brand vision and business goals. Our approach involves in-depth market analysis, competitive positioning, customer profiling, and campaign planning to boost visibility, engagement, and conversions across key markets.
+              </p>
             </div>
-            <div className="content-box">
-              <h2 className="section-title">Services</h2>
-              <p className="section-text">CiriUAE is a Dubai-based business consulting firm offering strategic and operational support to companies across the Middle East, India, Southeast Asia, and Africa. Our core mission is to empower businesses with customized solutions that drive growth, streamline operations, and foster sustainable success in dynamic and competitive markets.
 
-                With a multi-regional approach and deep market understanding, CiriUAE specializes in a comprehensive suite of services designed to address challenges, uncover opportunities, and build long-term value for clients across diverse industries.Detailed descriptions of services offered, including:</p>
-              <div className="services-content-grid">
-                <div className="service-content-item">
-                  <h4>Marketing Strategy</h4>
-                  <p>
-                    We craft data-driven, market-specific marketing strategies that align with your brand vision and
-                    business goals. Our approach involves in-depth market analysis, competitive positioning, customer
-                    profiling, and campaign planning to boost visibility, engagement, and conversions across key
-                    markets.
-                  </p>
-                </div>
-
-                <div className="service-content-item">
-                  <h4>New Business Territory Services</h4>
-                  <p>
-                    CiriUAE assists businesses in exploring and entering new territories with confidence. We provide
-                    end-to-end support in market entry strategy, regulatory compliance, competitive landscape
-                    evaluation, localization plans, and go-to-market execution.
-                  </p>
-                </div>
-
-                <div className="service-content-item">
-                  <h4>Business Development Strategy</h4>
-                  <p>
-                    Our team develops customized business development blueprints that identify growth areas, strategic
-                    leads, partnership opportunities, and expansion tactics to scale businesses sustainably in new and
-                    existing markets.
-                  </p>
-                </div>
-
-                <div className="service-content-item">
-                  <h4>Project Management</h4>
-                  <p>
-                    We deliver effective project planning, coordination, and execution services. Whether launching a new
-                    product, entering a market, or restructuring operations, CiriUAE ensures projects are delivered on
-                    time, within budget, and aligned with strategic goals.
-                  </p>
-                </div>
-
-                <div className="service-content-item">
-                  <h4>Product Marketing Plans</h4>
-                  <p>
-                    We design and implement actionable product marketing strategies to drive demand, differentiate your
-                    offerings, and maximize market share. Services include product positioning, pricing models,
-                    promotional campaigns, and lifecycle management.
-                  </p>
-                </div>
-
-                <div className="service-content-item">
-                  <h4>Business Management Solutions</h4>
-                  <p>
-                    CiriUAE offers comprehensive business management solutions to improve organizational performance,
-                    operational efficiency, and leadership effectiveness. We focus on strategic alignment, process
-                    optimization, resource planning, and performance tracking.
-                  </p>
-                </div>
-
-                <div className="service-content-item">
-                  <h4>Development of Distribution Network</h4>
-                  <p>
-                    We help businesses establish, expand, and optimize distribution networks in target markets. Our
-                    approach includes partner identification, territory planning, supply chain strategy, and distributor
-                    engagement models tailored to each region's dynamics.
-                  </p>
-                </div>
-
-                <div className="service-content-item">
-                  <h4>Distribution Network Road Map</h4>
-                  <p>
-                    CiriUAE builds strategic road maps for distribution expansion, covering geographic segmentation,
-                    logistics planning, channel development, digital integration, and long-term scalability frameworks.
-                  </p>
-                </div>
-
-                <div className="service-content-item">
-                  <h4>Problem Solving with Existing Systems</h4>
-                  <p>
-                    We provide diagnostic evaluations and solutions for businesses facing challenges in their current
-                    systems. Our consultants assess operational bottlenecks, inefficiencies, or outdated processes and
-                    deliver practical, tech-enabled recommendations for improvement.
-                  </p>
-                </div>
-
-                <div className="service-content-item">
-                  <h4>Strategic Partnerships Planning</h4>
-                  <p>
-                    CiriUAE identifies and facilitates strategic partnerships that enhance capability, reach, and
-                    competitiveness. We develop partnership frameworks, negotiation strategies, and collaboration models
-                    that align with business goals and mutual benefit.
-                  </p>
-                </div>
-
-                <div className="service-content-item">
-                  <h4>Collaboration Solutions</h4>
-                  <p>
-                    We design structured collaboration models for cross-border ventures, joint initiatives, or internal
-                    cross-functional teams. Our focus is on fostering synergy, transparency, and mutual accountability
-                    through digital tools and effective communication channels.
-                  </p>
-                </div>
-
-                <div className="service-content-item">
-                  <h4>Financial Modeling for New Business</h4>
-                  <p>
-                    Our financial experts build robust financial models to evaluate the viability, profitability, and
-                    risk factors of new business ideas. This includes revenue forecasting, cost analysis, ROI
-                    projections, cash flow planning, and investor-ready financial presentations.
-                  </p>
-                </div>
+            <div className="service-content-card">
+              <div className="service-icon">
+                <img src="https://scontent.fpat2-2.fna.fbcdn.net/v/t1.15752-9/512681648_1316336106516302_3684395483662138063_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=89LryC7-qDYQ7kNvwF2Hcom&_nc_oc=Adnz2xOkJukUR2QUNL3VaKwV6xso23_EJWQVx2HwCvpBcaa2NWi9fp2uSV76dfs7RAQ&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-2.fna&oh=03_Q7cD2gH7NUT8QjW2BnkKd6KM2LFLCq1FhSsJnPJT1V9yrT_Pkg&oe=688C657A" alt="New Business Territory Icon" className="service-image" />
+                <div className="emoji-overlay">🌍</div>
               </div>
+              <h3>New Business Territory Services</h3>
+              <p className="service-description">
+                CiriUAE assists businesses in exploring and entering new territories with confidence. We provide end-to-end support in market entry strategy, regulatory compliance, competitive landscape evaluation, localization plans, and go-to-market execution.
+              </p>
+            </div>
 
-              <div className="why-choose-section">
-                <h3>Why Choose CiriUAE?</h3>
-                <div className="why-choose-grid">
-                  <div className="why-choose-item">
-                    <div className="icon">🌍</div>
-                    <h4>Regional Expertise</h4>
-                    <p>In-depth understanding of the Middle East, India, Southeast Asia, and Africa.</p>
-                  </div>
-                  <div className="why-choose-item">
-                    <div className="icon">🎯</div>
-                    <h4>Tailored Solutions</h4>
-                    <p>Customized strategies to match the unique needs of your business.</p>
-                  </div>
-                  <div className="why-choose-item">
-                    <div className="icon">🏢</div>
-                    <h4>Cross-Sector Experience</h4>
-                    <p>Serving startups, SMEs, and large enterprises across various industries.</p>
-                  </div>
-                  <div className="why-choose-item">
-                    <div className="icon">🔄</div>
-                    <h4>End-to-End Support</h4>
-                    <p>From ideation to execution and optimization.</p>
-                  </div>
-                  <div className="why-choose-item">
-                    <div className="icon">🌐</div>
-                    <h4>Global Perspective, Local Execution</h4>
-                    <p>Bridging international standards with local relevance.</p>
-                  </div>
-                </div>
+            <div className="service-content-card">
+              <div className="service-icon">
+                <img src="https://scontent.fpat2-7.fna.fbcdn.net/v/t1.15752-9/511040692_697924176417903_6490408146052389315_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=oXsPTT2AobwQ7kNvwEKpMPQ&_nc_oc=AdlsUmE-Yh-afPgchfEBQnhrxY6-bzYAD3weaWpOJiDMbfepS_63Pf4W9cZwnkuKsYo&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-7.fna&oh=03_Q7cD2gGpyAqfBJy2_HI9J7lHxnKd-MjhKw1ctyTta-BXktjLRw&oe=688C4BEE" alt="Business Development Icon" className="service-image" />
+                <div className="emoji-overlay">🚀</div>
               </div>
+              <h3>Business Development Strategy</h3>
+              <p className="service-description">
+                Our team develops customized business development blueprints that identify growth areas, strategic leads, partnership opportunities, and expansion tactics to scale businesses sustainably in new and existing markets.
+              </p>
+            </div>
+
+            <div className="service-content-card">
+              <div className="service-icon">
+                <img src="https://scontent.fpat2-7.fna.fbcdn.net/v/t1.15752-9/513665286_736129518786332_6974681536189359121_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=DnWBjm5Bky4Q7kNvwFz9V6e&_nc_oc=Adn9byMTcJhUplhuP4QaVPblfHtRrOkGaUcgd6W3UC7BP2aX0wVofrcl4nd5cAXVxEg&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-7.fna&oh=03_Q7cD2gE1IYCZopc32uwSrA88lQvxFJzdgqdktPYH8D2r6e-CgA&oe=688C6D0C" alt="Project Management Icon" className="service-image" />
+                <div className="emoji-overlay">📋</div>
+              </div>
+              <h3>Project Management</h3>
+              <p className="service-description">
+                We deliver effective project planning, coordination, and execution services. Whether launching a new product, entering a market, or restructuring operations, CiriUAE ensures projects are delivered on time, within budget, and aligned with strategic goals.
+              </p>
+            </div>
+
+            <div className="service-content-card">
+              <div className="service-icon">
+                <img src="https://scontent.fpat2-7.fna.fbcdn.net/v/t1.15752-9/512094944_1391663771895644_8217416743799240671_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=evZZveIyxQcQ7kNvwE6qcMG&_nc_oc=AdnNvHr-sLDmhqUPMdnKv6DlIiBLjqAxGIhrq_aeqWSQX5Ia0C2iFgvJJtAZxnb_Yl4&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-7.fna&oh=03_Q7cD2gHomxmc-mY1wW5RYWqeklIiN2J1KOQgqhvsOoLhnK8t7Q&oe=688C4BB9" alt="Product Marketing Icon" className="service-image" />
+                <div className="emoji-overlay">🎯</div>
+              </div>
+              <h3>Product Marketing Plans</h3>
+              <p className="service-description">
+                We design and implement actionable product marketing strategies to drive demand, differentiate your offerings, and maximize market share. Services include product positioning, pricing models, promotional campaigns, and lifecycle management.
+              </p>
+            </div>
+
+            <div className="service-content-card">
+              <div className="service-icon">
+                <img src="https://scontent.fpat2-2.fna.fbcdn.net/v/t1.15752-9/503114812_2249845348765437_2902754464924939348_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s480x480&_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=rXQjwjnb5w8Q7kNvwEgXFhh&_nc_oc=AdlsYGjRec47o_rhoVW8KLddQzYVlry6-yy2DwVb5qlAHhEilU2bhZqrUW6XmdM4Si8&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-2.fna&oh=03_Q7cD2gFvfihOxNlQhuREV5GUneMwLscCWwx6OJeu-XGm1fEjLA&oe=688C49B5" alt="Business Management Icon" className="service-image" />
+                <div className="emoji-overlay">⚙️</div>
+              </div>
+              <h3>Business Management Solutions</h3>
+              <p className="service-description">
+                CiriUAE offers comprehensive business management solutions to improve organizational performance, operational efficiency, and leadership effectiveness. We focus on strategic alignment, process optimization, resource planning, and performance tracking.
+              </p>
+            </div>
+
+            <div className="service-content-card">
+              <div className="service-icon">
+                <img src="https://scontent.fpat2-4.fna.fbcdn.net/v/t1.15752-9/508610171_750006684230873_1549855642984009963_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=rCHnKHVrbeoQ7kNvwFV6RPi&_nc_oc=Adlx1ZliKCPY8IddgF8JgTJ8LO9ylzgFCdefXl_c8oQdirXrTw_bDbNTesNMnsGmXaU&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-4.fna&oh=03_Q7cD2gHpQOVzKZQ-P_1dqEWwKZv8oqby0_w2CMEUW3PbebGkBw&oe=688C6A1E" alt="Distribution Network Icon" className="service-image" />
+                <div className="emoji-overlay">🌐</div>
+              </div>
+              <h3>Development of Distribution Network</h3>
+              <p className="service-description">
+                We help businesses establish, expand, and optimize distribution networks in target markets. Our approach includes partner identification, territory planning, supply chain strategy, and distributor engagement models tailored to each region's dynamics.
+              </p>
+            </div>
+
+            <div className="service-content-card">
+              <div className="service-icon">
+                <img src="https://scontent.fpat2-4.fna.fbcdn.net/v/t1.15752-9/508912755_1083698900491210_4078353333278929228_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=nP0ygizPPlEQ7kNvwHl--12&_nc_oc=AdmL-iLE2SaMbITO58rwGl5WsjNCDWFOjvpr8NPlFcVZmDmOpG5ngG6fBqEta1iGwn8&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-4.fna&oh=03_Q7cD2gFAeoMNv22P_2YLHcJawwx24hIUC3wLbiA_gV_l6TOcug&oe=688C5F76" alt="Distribution Roadmap Icon" className="service-image" />
+                <div className="emoji-overlay">🗺️</div>
+              </div>
+              <h3>Distribution Network Road Map</h3>
+              <p className="service-description">
+                CiriUAE builds strategic road maps for distribution expansion, covering geographic segmentation, logistics planning, channel development, digital integration, and long-term scalability frameworks.
+              </p>
+            </div>
+
+            <div className="service-content-card">
+              <div className="service-icon">
+                <img src="https://scontent.fpat2-2.fna.fbcdn.net/v/t1.15752-9/510318959_737410065297554_7641379433325896808_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=RdWpdVKQkfEQ7kNvwFlkilE&_nc_oc=AdkP4ESfxSJxg4CWW1Rm--zJhL3G3_tlg6HHlNI7XYeFyekDgwyZ_oYVQKOttIDFfdA&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-2.fna&oh=03_Q7cD2gG0UBrWo4BIc9l-1SrnIuGl99nHPWvvkxGcB1YME1CrVw&oe=688C4A50" alt="Problem Solving Icon" className="service-image" />
+                <div className="emoji-overlay">🔧</div>
+              </div>
+              <h3>Problem Solving with Existing Systems</h3>
+              <p className="service-description">
+                We provide diagnostic evaluations and solutions for businesses facing challenges in their current systems. Our consultants assess operational bottlenecks, inefficiencies, or outdated processes and deliver practical, tech-enabled recommendations for improvement.
+              </p>
+            </div>
+
+            <div className="service-content-card">
+              <div className="service-icon">
+                <img src="https://scontent.fpat2-7.fna.fbcdn.net/v/t1.15752-9/509745156_4137746703129274_1615314728760735636_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=FxBVlGNYSicQ7kNvwHqZ_5u&_nc_oc=AdlryRvWx8euz62AkwzXZ3qg_EnP8AqeQrr08inLMvqmq3jaW-0XkBZUipfiZGKFN94&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-7.fna&oh=03_Q7cD2gHW1lPIAunVN9Pg6cjquU6CkczTaF1gZ5wsGZwVxMt0lg&oe=688C53CA" alt="Strategic Partnerships Icon" className="service-image" />
+                <div className="emoji-overlay">🤝</div>
+              </div>
+              <h3>Strategic Partnerships Planning</h3>
+              <p className="service-description">
+                CiriUAE identifies and facilitates strategic partnerships that enhance capability, reach, and competitiveness. We develop partnership frameworks, negotiation strategies, and collaboration models that align with business goals and mutual benefit.
+              </p>
+            </div>
+
+            <div className="service-content-card">
+              <div className="service-icon">
+                <img src="https://scontent.fpat2-4.fna.fbcdn.net/v/t1.15752-9/509313269_2461844370869086_4129815263051984865_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=J4plhG5GJ4sQ7kNvwHFe3K7&_nc_oc=AdkcRhCPkGs8xOv3jedRqmJmGpDNtxpip98ztHsXtY_tDfUl_yXqaAn0bl5SeAjOV2M&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-4.fna&oh=03_Q7cD2gG6TgPJDMI2bLfwKay3Q4bk-BOUHNQVWVo0Hxka-wNQqQ&oe=688C48C8" alt="Collaboration Solutions Icon" className="service-image" />
+                <div className="emoji-overlay">🔗</div>
+              </div>
+              <h3>Collaboration Solutions</h3>
+              <p className="service-description">
+                We design structured collaboration models for cross-border ventures, joint initiatives, or internal cross-functional teams. Our focus is on fostering synergy, transparency, and mutual accountability through digital tools and effective communication channels.
+              </p>
+            </div>
+
+            <div className="service-content-card">
+              <div className="service-icon">
+                <img src="https://scontent.fpat2-1.fna.fbcdn.net/v/t1.15752-9/511152013_1305730264448362_60703728244716014_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=4mIz3QvkaKQQ7kNvwGitrkJ&_nc_oc=AdmeUWEdZN5l0k_ucn5rr1FMVg7Rxvgu44_NB3TgFxPv849AbDSl6th9GBUJ2zIYrno&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-1.fna&oh=03_Q7cD2gHmo3V8p3GDP-gBEM9qyi_5mQquwo4G-1UlOBHMR6buFg&oe=688C4879" alt="Financial Modeling Icon" className="service-image" />
+                <div className="emoji-overlay">💰</div>
+              </div>
+              <h3>Financial Modeling for New Business</h3>
+              <p className="service-description">
+                Our financial experts build robust financial models to evaluate the viability, profitability, and risk factors of new business ideas. This includes revenue forecasting, cost analysis, ROI projections, cash flow planning, and investor-ready financial presentations.
+              </p>
             </div>
           </div>
         </div>
@@ -339,7 +357,7 @@ function Home() {
       </section>
 
       {/* Section 5: Industries */}
-            <section id="industries" className="section industries-section">
+      <section id="industries" className="section industries-section">
         <div className="container">
           <h2 className="section-title center">Industries We Serve</h2>
           <p className="industries-intro">
@@ -560,20 +578,88 @@ function Home() {
             <div className="content-box">
               <h2 className="section-title">Contact Us</h2>
               <p className="section-text">
-                Contact information, inquiry form, and office locations. Ready to transform your business? Get in touch
-                with our expert consultants today.
+                Ready to transform your business? Get in touch with our expert consultants today and discover how we can help you achieve your goals.
               </p>
-              <div className="contact-info">
-                <div className="contact-item">
-                  <h4>Dubai Office</h4>
-                  <p>Business Bay, Dubai, UAE</p>
-                  <p>+971 5 243 08085</p>
+
+              {/* Contact Information Grid */}
+              <div className="contact-info-grid">
+                <div className="contact-info-card">
+                  <div className="contact-card-header">
+                    <div className="contact-icon">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 10C21 17 12 23 12 23S3 17 3 10C3 6.13401 6.13401 3 10 3H14C17.866 3 21 6.13401 21 10Z" stroke="#667eea" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                        <circle cx="12" cy="10" r="3" stroke="#667eea" strokeWidth="2" />
+                      </svg>
+                    </div>
+                    <h3>CIRI UAE</h3>
+                  </div>
+                  <div className="contact-details">
+                    <div className="contact-detail">
+                      <strong>Address:</strong>
+                      <p>Free Zone - Ajman - United Arab Emirates</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="contact-info-card">
+                  <div className="contact-card-header">
+                    <div className="contact-icon">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 16.92V19.92C22 20.52 21.52 21 20.92 21H3.08C2.48 21 2 20.52 2 19.92V16.92C2 16.32 2.48 15.84 3.08 15.84H20.92C21.52 15.84 22 16.32 22 16.92ZM22 7.08V10.08C22 10.68 21.52 11.16 20.92 11.16H3.08C2.48 11.16 2 10.68 2 10.08V7.08C2 6.48 2.48 6 3.08 6H20.92C21.52 6 22 6.48 22 7.08Z" fill="#667eea" />
+                        <path d="M15.05 6.85L11.27 10.63C10.89 11.01 10.11 11.01 9.73 10.63L5.95 6.85" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    </div>
+                    <h3>Contact Information</h3>
+                  </div>
+                  <div className="contact-details">
+                    <div className="contact-detail">
+                      <strong>Phone:</strong>
+                      <p>0971524308085</p>
+                    </div>
+                    <div className="contact-detail">
+                      <strong>Email:</strong>
+                      <p>INQUIRY@CIRIUAE.COM</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="contact-info-card">
+                  <div className="contact-card-header">
+                    <div className="contact-icon">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="10" stroke="#667eea" strokeWidth="2" />
+                        <polyline points="12,6 12,12 16,14" stroke="#667eea" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    </div>
+                    <h3>Business Hours</h3>
+                  </div>
+                  <div className="contact-details">
+                    <div className="contact-detail">
+                      <strong>Open today:</strong>
+                      <p>09:00 am – 05:00 pm</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <button className="animated-button" id="contact-infoBtn">
-                <span>More Info</span>
-                <div className="button-animation"></div>
-              </button>
+
+              {/* Social Media Links */}
+              <div className="social-links-section">
+                <h4>Follow Us</h4>
+                <div className="social-links">
+                  <a href="https://x.com/CiriUAE" className="social-link twitter" title="Follow us on X">
+                    <FaXTwitter />
+                  </a>
+                  <a href="https://wa.me/971524308085" className="social-link whatsapp" title="Chat on WhatsApp">
+                    <FaWhatsapp />
+                  </a>
+                  <a href="https://www.linkedin.com/company/ciri-uae" className="social-link linkedin" title="Connect on LinkedIn">
+                    <FaLinkedin />
+                  </a>
+                  <a href="mailto:INQUIRY@CIRIUAE.COM" className="social-link email" title="Send us an email">
+                    <FaEnvelope />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -737,50 +823,13 @@ function Home() {
       <div className="contact-widget">
         <div className="contact-main-button">
           <div className="contact-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 1H5C3.9 1 3 1.9 3 3V7C3 8.1 3.9 9 5 9H8V11C8 12.1 8.9 13 10 13H14C15.1 13 16 12.1 16 11V9H19C20.1 9 21 8.1 21 7V9ZM7.5 6C7.5 6.8 6.8 7.5 6 7.5S4.5 6.8 4.5 6 5.2 4.5 6 4.5 7.5 5.2 7.5 6ZM19.5 6C19.5 6.8 18.8 7.5 18 7.5S16.5 6.8 16.5 6 17.2 4.5 18 4.5 19.5 5.2 19.5 6ZM9 16H15V18H9V16ZM10 19H14V21H10V19Z"
-                fill="currentColor"
-              />
-              <circle cx="6" cy="18" r="2" fill="currentColor" />
-              <circle cx="18" cy="18" r="2" fill="currentColor" />
-              <path d="M7 14L9 16H15L17 14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-            </svg>
+            <TbSocial className='social-icon' />
           </div>
         </div>
         <div className="contact-links">
-          <a href="#" className="contact-link twitter" title="Follow us on X">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
-                fill="currentColor"
-              />
-            </svg>
-          </a>
-          <a href="#" className="contact-link whatsapp" title="Chat on WhatsApp">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488"
-                fill="currentColor"
-              />
-            </svg>
-          </a>
-          <a href="#" className="contact-link linkedin" title="Connect on LinkedIn">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
-                fill="currentColor"
-              />
-            </svg>
-          </a>
-          <a href="#" className="contact-link email" title="Send us an email">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z"
-                fill="currentColor"
-              />
-            </svg>
-          </a>
+          {socialMediaLinks.map((link, idx) => (
+            <a href={link.url} key={idx} title={link.title} target='_blank' className='social-icons' style={{color: link.color, fontSize: link.fontSize}}>{link.icon}</a>
+          ))}
         </div>
       </div>
     </>
