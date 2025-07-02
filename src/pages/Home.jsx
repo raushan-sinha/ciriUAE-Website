@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar'
 import './Home.css'
 import { FaXTwitter, FaWhatsapp, FaLinkedin, FaEnvelope } from 'react-icons/fa6'
@@ -516,10 +517,12 @@ function Home() {
                 </blockquote>
                 <cite>- CEO, CiriUAE (Tech Startup)</cite>
               </div>
-              <button className="animated-button" id="case-infoBtn">
-                <span>More Info</span>
-                <div className="button-animation"></div>
-              </button>
+              <Link to="/casestudies">
+                <button className="animated-button" id="case-infoBtn">
+                  <span>More Info</span>
+                  <div className="button-animation"></div>
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -822,7 +825,7 @@ function Home() {
         </div>
         <div className="contact-links">
           {socialMediaLinks.map((link, idx) => (
-            <a href={link.url} key={idx} title={link.title} target='_blank' className='social-icons' style={{color: link.color, fontSize: link.fontSize}}>{link.icon}</a>
+            <a href={link.url} key={idx} title={link.title} target='_blank' className='social-icons' style={{ color: link.color, fontSize: link.fontSize }}>{link.icon}</a>
           ))}
         </div>
       </div>
