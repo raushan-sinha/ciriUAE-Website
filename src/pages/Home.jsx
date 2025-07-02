@@ -43,9 +43,9 @@ function Home() {
       <section id="home" className="section intro-section">
         <div className="container">
           <div className="flex-container">
-            <div className="image-box">
+            <div className="video-box">
               <div className="mobile-slider">
-                <img src="https://scontent.fpat3-3.fna.fbcdn.net/v/t1.15752-9/511513548_1511531979825288_4289873307517341310_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=Km5V-FVgAckQ7kNvwHZe67o&_nc_oc=Adm8ll8t0iAz66-pSoHXrnCrjiZ1G3W1xLcAVEuvGTkEBieGsuH_JyExLrur4k6P9qs&_nc_ad=z-m&_nc_cid=2034&_nc_zt=23&_nc_ht=scontent.fpat3-3.fna&oh=03_Q7cD2gHtT7vMJufCYrmqfc9yGmYKCVM50QT8P4vawGkCmDZ-pg&oe=688B7E4C" alt="CiriUAE Introduction" className="section-image" />
+                <video src="https://videos.pexels.com/video-files/3864917/3864917-uhd_2560_1440_30fps.mp4" loop muted autoPlay playsInline className="section-video"></video>
               </div>
             </div>
             <div className="content-box">
@@ -295,12 +295,6 @@ function Home() {
               individuals to join our team and contribute to our mission. Check out our current job openings and apply
               today!
             </p>
-            <button
-              className="cta-button"
-              onClick={() => document.getElementById("application-form").scrollIntoView({ behavior: "smooth" })}
-            >
-              Apply Now
-            </button>
           </div>
 
           <div className="form-section" id="application-form">

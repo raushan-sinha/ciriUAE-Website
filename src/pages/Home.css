@@ -61,13 +61,13 @@ body {
 }
 
 /* Image and Content Boxes */
-.image-box,
+.video-box,
 .content-box {
   flex: 1;
   animation: fadeInUp 0.8s ease-out;
 }
 
-.image-box {
+.video-box {
   position: relative;
 }
 
@@ -84,14 +84,14 @@ body {
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
 }
 
-.section-image {
+.section-video {
   width: 100%;
   height: auto;
   display: block;
   transition: transform 0.3s ease;
 }
 
-.mobile-slider:hover .section-image {
+.mobile-slider:hover .section-video {
   transform: scale(1.05);
 }
 
