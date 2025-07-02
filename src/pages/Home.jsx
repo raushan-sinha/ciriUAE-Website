@@ -53,20 +53,55 @@ function Home() {
                 innovative solutions. Our mission is to empower organizations with the tools and strategies they need to
                 thrive in competitive markets.
               </p>
-              <div className="about-details">
-                <div className="detail-item">
-                  <h4>Our Mission</h4>
-                  <p>To deliver exceptional consulting services that drive sustainable business growth.</p>
+
+              <div className="about-content-grid">
+                <div className="about-content-item">
+                  <h4>Our Expertise</h4>
+                  <p>
+                    With CIRI UAE, our main vision is to empower businesses through comprehensive business management
+                    solutions. Complementing this core focus, we also specialize in digital marketing strategies and
+                    investment strategy, all designed to help businesses improve their online visibility, attract more
+                    traffic to their website, and convert leads into customers. Our team of experts has years of
+                    experience in SEO, PPC, social media marketing, and content creation.
+                  </p>
                 </div>
-                <div className="detail-item">
-                  <h4>Our Vision</h4>
-                  <p>To be the leading management consulting firm in the UAE and beyond.</p>
+
+                <div className="about-content-item">
+                  <h4>Our Mission</h4>
+                  <p>
+                    At CIRI UAE we aim to transform brands through innovative marketing strategies. Our mission is to
+                    connect your brand with the audience it deserves, ensuring that your unique story is effectively
+                    communicated.
+                  </p>
+                </div>
+
+                <div className="about-content-item">
+                  <h4>Our Team</h4>
+                  <p>
+                    Our passionate professionals bring deep expertise in business development, marketing, and strategic
+                    planning. We believe in your success.
+                  </p>
+                </div>
+
+                <div className="about-content-item">
+                  <h4>Our Philosophy</h4>
+                  <p>
+                    We believe that the key to successful marketing is to focus on the needs of the customer. By
+                    understanding their pain points and desires, we can create targeted campaigns that resonate with
+                    them and drive results for our clients, together with our investment strategy for expansion to best
+                    serve those evolving needs.
+                  </p>
+                </div>
+
+                <div className="about-content-item">
+                  <h4>Our Process</h4>
+                  <p>
+                    Our process is designed to deliver results. We start by conducting a thorough analysis of our
+                    client's business and industry, followed by a comprehensive strategy development phase. From there,
+                    we execute and optimize our campaigns for maximum impact.
+                  </p>
                 </div>
               </div>
-              <button className="animated-button" id="about-infoBtn">
-                <span>More Info</span>
-                <div className="button-animation"></div>
-              </button>
             </div>
           </div>
         </div>
@@ -83,29 +118,149 @@ function Home() {
             </div>
             <div className="content-box">
               <h2 className="section-title">Services</h2>
-              <p className="section-text">Detailed descriptions of services offered, including:</p>
-              <div className="services-list">
-                <ul>
-                  <li>Marketing Strategy</li>
-                  <li>Business Development Strategy</li>
-                  <li>Financial Modeling</li>
-                  <li>Distribution Network Development</li>
-                  <li>New Territory Business Entry Strategy</li>
-                  <li>Sales and Marketing Strategy</li>
-                  <li>Fund Raising</li>
-                  <li>Partner Strategy Planning</li>
-                  <li>Digital Marketing Plan</li>
-                  <li>Market Analysis Report</li>
-                  <li>Competitive Analysis Report</li>
-                  <li>Business Proposal Development</li>
-                  <li>Software Consulting</li>
-                  <li>Government Liaison</li>
-                </ul>
+              <p className="section-text">CiriUAE is a Dubai-based business consulting firm offering strategic and operational support to companies across the Middle East, India, Southeast Asia, and Africa. Our core mission is to empower businesses with customized solutions that drive growth, streamline operations, and foster sustainable success in dynamic and competitive markets.
+
+                With a multi-regional approach and deep market understanding, CiriUAE specializes in a comprehensive suite of services designed to address challenges, uncover opportunities, and build long-term value for clients across diverse industries.Detailed descriptions of services offered, including:</p>
+              <div className="services-content-grid">
+                <div className="service-content-item">
+                  <h4>Marketing Strategy</h4>
+                  <p>
+                    We craft data-driven, market-specific marketing strategies that align with your brand vision and
+                    business goals. Our approach involves in-depth market analysis, competitive positioning, customer
+                    profiling, and campaign planning to boost visibility, engagement, and conversions across key
+                    markets.
+                  </p>
+                </div>
+
+                <div className="service-content-item">
+                  <h4>New Business Territory Services</h4>
+                  <p>
+                    CiriUAE assists businesses in exploring and entering new territories with confidence. We provide
+                    end-to-end support in market entry strategy, regulatory compliance, competitive landscape
+                    evaluation, localization plans, and go-to-market execution.
+                  </p>
+                </div>
+
+                <div className="service-content-item">
+                  <h4>Business Development Strategy</h4>
+                  <p>
+                    Our team develops customized business development blueprints that identify growth areas, strategic
+                    leads, partnership opportunities, and expansion tactics to scale businesses sustainably in new and
+                    existing markets.
+                  </p>
+                </div>
+
+                <div className="service-content-item">
+                  <h4>Project Management</h4>
+                  <p>
+                    We deliver effective project planning, coordination, and execution services. Whether launching a new
+                    product, entering a market, or restructuring operations, CiriUAE ensures projects are delivered on
+                    time, within budget, and aligned with strategic goals.
+                  </p>
+                </div>
+
+                <div className="service-content-item">
+                  <h4>Product Marketing Plans</h4>
+                  <p>
+                    We design and implement actionable product marketing strategies to drive demand, differentiate your
+                    offerings, and maximize market share. Services include product positioning, pricing models,
+                    promotional campaigns, and lifecycle management.
+                  </p>
+                </div>
+
+                <div className="service-content-item">
+                  <h4>Business Management Solutions</h4>
+                  <p>
+                    CiriUAE offers comprehensive business management solutions to improve organizational performance,
+                    operational efficiency, and leadership effectiveness. We focus on strategic alignment, process
+                    optimization, resource planning, and performance tracking.
+                  </p>
+                </div>
+
+                <div className="service-content-item">
+                  <h4>Development of Distribution Network</h4>
+                  <p>
+                    We help businesses establish, expand, and optimize distribution networks in target markets. Our
+                    approach includes partner identification, territory planning, supply chain strategy, and distributor
+                    engagement models tailored to each region's dynamics.
+                  </p>
+                </div>
+
+                <div className="service-content-item">
+                  <h4>Distribution Network Road Map</h4>
+                  <p>
+                    CiriUAE builds strategic road maps for distribution expansion, covering geographic segmentation,
+                    logistics planning, channel development, digital integration, and long-term scalability frameworks.
+                  </p>
+                </div>
+
+                <div className="service-content-item">
+                  <h4>Problem Solving with Existing Systems</h4>
+                  <p>
+                    We provide diagnostic evaluations and solutions for businesses facing challenges in their current
+                    systems. Our consultants assess operational bottlenecks, inefficiencies, or outdated processes and
+                    deliver practical, tech-enabled recommendations for improvement.
+                  </p>
+                </div>
+
+                <div className="service-content-item">
+                  <h4>Strategic Partnerships Planning</h4>
+                  <p>
+                    CiriUAE identifies and facilitates strategic partnerships that enhance capability, reach, and
+                    competitiveness. We develop partnership frameworks, negotiation strategies, and collaboration models
+                    that align with business goals and mutual benefit.
+                  </p>
+                </div>
+
+                <div className="service-content-item">
+                  <h4>Collaboration Solutions</h4>
+                  <p>
+                    We design structured collaboration models for cross-border ventures, joint initiatives, or internal
+                    cross-functional teams. Our focus is on fostering synergy, transparency, and mutual accountability
+                    through digital tools and effective communication channels.
+                  </p>
+                </div>
+
+                <div className="service-content-item">
+                  <h4>Financial Modeling for New Business</h4>
+                  <p>
+                    Our financial experts build robust financial models to evaluate the viability, profitability, and
+                    risk factors of new business ideas. This includes revenue forecasting, cost analysis, ROI
+                    projections, cash flow planning, and investor-ready financial presentations.
+                  </p>
+                </div>
               </div>
-              <button className="animated-button" id="services-infoBtn">
-                <span>More Info</span>
-                <div className="button-animation"></div>
-              </button>
+
+              <div className="why-choose-section">
+                <h3>Why Choose CiriUAE?</h3>
+                <div className="why-choose-grid">
+                  <div className="why-choose-item">
+                    <div className="icon">🌍</div>
+                    <h4>Regional Expertise</h4>
+                    <p>In-depth understanding of the Middle East, India, Southeast Asia, and Africa.</p>
+                  </div>
+                  <div className="why-choose-item">
+                    <div className="icon">🎯</div>
+                    <h4>Tailored Solutions</h4>
+                    <p>Customized strategies to match the unique needs of your business.</p>
+                  </div>
+                  <div className="why-choose-item">
+                    <div className="icon">🏢</div>
+                    <h4>Cross-Sector Experience</h4>
+                    <p>Serving startups, SMEs, and large enterprises across various industries.</p>
+                  </div>
+                  <div className="why-choose-item">
+                    <div className="icon">🔄</div>
+                    <h4>End-to-End Support</h4>
+                    <p>From ideation to execution and optimization.</p>
+                  </div>
+                  <div className="why-choose-item">
+                    <div className="icon">🌐</div>
+                    <h4>Global Perspective, Local Execution</h4>
+                    <p>Bridging international standards with local relevance.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -184,33 +339,144 @@ function Home() {
       </section>
 
       {/* Section 5: Industries */}
-      <section id="industries" className="section industries-section">
+            <section id="industries" className="section industries-section">
         <div className="container">
-          <div className="flex-container reverse">
-            <div className="image-box">
-              <div className="mobile-slider">
-                <img src="https://scontent.fpat3-3.fna.fbcdn.net/v/t1.15752-9/513665286_736129518786332_6974681536189359121_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=DnWBjm5Bky4Q7kNvwGuo-nA&_nc_oc=AdmZy-s6sQdHWj0mVA37N6I72zf46LzoDiAFLiI2U_1bxEgkMcn3YHYrwlflWDh3WI0&_nc_ad=z-m&_nc_cid=2034&_nc_zt=23&_nc_ht=scontent.fpat3-3.fna&oh=03_Q7cD2gG-twFEBfQLO_jQnxEDdgjtkTzC2eMjKCPUNKNv2hpHhA&oe=688B8C0C" alt="Industries We Serve" className="section-image" />
+          <h2 className="section-title center">Industries We Serve</h2>
+          <p className="industries-intro">
+            At CiriUAE, we understand that each industry has its own ecosystem—unique challenges, customer expectations, and compliance standards. That's why we develop tailored strategies and services to drive measurable results for your specific domain. Whether you're in healthcare, finance, or emerging technology, our expertise helps you solve problems, seize opportunities, and scale sustainably.
+          </p>
+
+          <div className="industries-content-grid">
+            <div className="industry-content-card">
+              <div className="industry-icon">
+                <img src="https://scontent.fpat1-1.fna.fbcdn.net/v/t1.15752-9/510259636_3599011237061292_1592911840479562705_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s480x480&_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=cQYfw9WLfmMQ7kNvwEX8FVg&_nc_oc=AdnBa2bpTFBeNQe6iaukuakXiXFr2t8c86-mCn7y4EpfOfNEG46FPu3sBHV6XPchX0snVqFnKVY_MGiNKNfW_RNw&_nc_ad=z-m&_nc_cid=2034&_nc_zt=23&_nc_ht=scontent.fpat1-1.fna&oh=03_Q7cD2gFF4A0N4urGdNaAqaiX9sjVrYr_RYLU8yU4V_nDq9kIHw&oe=688C2534" alt="Healthcare Icon" className="industry-image" />
+              </div>
+              <h3>Healthcare</h3>
+              <p className="industry-description">
+                Healthcare organizations today face rising patient expectations, strict regulatory demands, and the need for digital transformation.
+              </p>
+              <div className="industry-services">
+                <h4>We help you:</h4>
+                <ul>
+                  <li>Streamline clinical and administrative workflows</li>
+                  <li>Enhance patient engagement with digital tools</li>
+                  <li>Ensure data security and compliance (HIPAA, GDPR)</li>
+                  <li>Adopt technologies like telemedicine, AI diagnostics, and EHR integrations</li>
+                </ul>
+              </div>
+              <div className="industry-outcome">
+                <strong>Outcome:</strong> Improved efficiency, better patient care, and faster innovation in healthcare delivery.
               </div>
             </div>
-            <div className="content-box">
-              <h2 className="section-title">Industries</h2>
-              <p className="section-text">
-                Services tailored to specific industries (e.g., healthcare, finance, technology). We understand that
-                each industry has unique challenges and opportunities, which is why we customize our approach to meet
-                the specific needs of your sector.
-              </p>
-              <div className="industries-grid">
-                <div className="industry-item">Healthcare</div>
-                <div className="industry-item">Finance</div>
-                <div className="industry-item">Technology</div>
-                <div className="industry-item">Manufacturing</div>
-                <div className="industry-item">Retail</div>
-                <div className="industry-item">Energy</div>
+
+            <div className="industry-content-card">
+              <div className="industry-icon">
+                <img src="https://scontent.fpat1-1.fna.fbcdn.net/v/t1.15752-9/510801932_697092323108762_5792537515266678411_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s480x480&_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=iRwDTGZUEG0Q7kNvwGxkUYu&_nc_oc=AdmDPyCQ20Jko-TXYoEWWXbRyLQZwCF-aKhs8RiNVV9DjdpEBXkYLH0yrwiTdL5SfpcRDrGF1f8Pr-KWTI2X8ohB&_nc_ad=z-m&_nc_cid=2034&_nc_zt=23&_nc_ht=scontent.fpat1-1.fna&oh=03_Q7cD2gEqL7olKGzXa7MSoM8yez7FvFF2fMdRbH_iI1eqcpFkxQ&oe=688C3031" alt="Finance Icon" className="industry-image" />
               </div>
-              <button className="animated-button" id="industries-infoBtn">
-                <span>More Info</span>
-                <div className="button-animation"></div>
-              </button>
+              <h3>Finance</h3>
+              <p className="industry-description">
+                The financial sector demands precision, compliance, and innovation. From banking to fintech, we provide robust, future-ready solutions.
+              </p>
+              <div className="industry-services">
+                <h4>We help you:</h4>
+                <ul>
+                  <li>Strengthen cybersecurity and risk management</li>
+                  <li>Improve digital customer experiences</li>
+                  <li>Automate workflows and reporting</li>
+                  <li>Stay compliant with global financial regulations</li>
+                </ul>
+              </div>
+              <div className="industry-outcome">
+                <strong>Outcome:</strong> More secure, agile, and customer-centric financial operations.
+              </div>
+            </div>
+
+            <div className="industry-content-card">
+              <div className="industry-icon">
+                <img src="https://scontent.fpat1-1.fna.fbcdn.net/v/t1.15752-9/513265926_3310181492473106_4338510199689079918_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s480x480&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=rw6ObUUPW8QQ7kNvwGLOC6I&_nc_oc=AdlB0Q8TMoUW_d0YxkFCkJImBKcB4RWtPRmtlXtGSxwuCsoOXvvdml09lkvREUHRrhg1fNX3_afr-FDtBgW1Jnzi&_nc_ad=z-m&_nc_cid=2034&_nc_zt=23&_nc_ht=scontent.fpat1-1.fna&oh=03_Q7cD2gEVwY9cgsRRqbtF12X3Rqh5wt9kuWt0mn8oUAAq06zwgQ&oe=688C413C" alt="Technology Icon" className="industry-image" />
+              </div>
+              <h3>Technology</h3>
+              <p className="industry-description">
+                In the tech industry, speed, scalability, and innovation are non-negotiable. We partner with startups, SaaS companies, and IT enterprises to accelerate digital success.
+              </p>
+              <div className="industry-services">
+                <h4>We help you:</h4>
+                <ul>
+                  <li>Build scalable cloud and software solutions</li>
+                  <li>Optimize DevOps and product development cycles</li>
+                  <li>Enhance UI/UX and customer retention</li>
+                  <li>Integrate AI, ML, and data analytics</li>
+                </ul>
+              </div>
+              <div className="industry-outcome">
+                <strong>Outcome:</strong> Faster innovation, improved product delivery, and stronger market positioning.
+              </div>
+            </div>
+
+            <div className="industry-content-card">
+              <div className="industry-icon">
+                <img src="https://scontent.fpat1-1.fna.fbcdn.net/v/t1.15752-9/511034879_1790544494860632_4058571929223109175_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s480x480&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=8V5lWRwuhnkQ7kNvwFXXRF0&_nc_oc=AdmG0QofZHCGqSjrOL3TxfMXTtNK_8Ut-KPU7rzYKroa0keRClYciKXiMOVMSn-UmMaF_cQmlk7d_DFHCx-OXnBn&_nc_ad=z-m&_nc_cid=2034&_nc_zt=23&_nc_ht=scontent.fpat1-1.fna&oh=03_Q7cD2gFPqUmmtRBsKfnamXqpODrBaZILo7yRc5NDN2IB0ZAbsg&oe=688C4FB0" alt="Manufacturing Icon" className="industry-image" />
+              </div>
+              <h3>Manufacturing</h3>
+              <p className="industry-description">
+                The manufacturing industry is embracing Industry 4.0—from automation to smart factories. We help companies modernize and stay competitive.
+              </p>
+              <div className="industry-services">
+                <h4>We help you:</h4>
+                <ul>
+                  <li>Automate production and inventory systems</li>
+                  <li>Implement smart factory and IoT solutions</li>
+                  <li>Reduce operational costs with data-driven decisions</li>
+                  <li>Optimize supply chains and resource planning</li>
+                </ul>
+              </div>
+              <div className="industry-outcome">
+                <strong>Outcome:</strong> Enhanced productivity, reduced waste, and end-to-end digital visibility.
+              </div>
+            </div>
+
+            <div className="industry-content-card">
+              <div className="industry-icon">
+                <img src="https://scontent.fpat1-1.fna.fbcdn.net/v/t1.15752-9/511217358_1915811818959625_7190623423208180979_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s480x480&_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=3FKjwhVt4rAQ7kNvwHs7278&_nc_oc=Adlbyl3_Etvl6BtVf73ccD5QZEGzVjmwJPDv9l5z6znZAglZV-Ks2ZQW_aTXPuv0nzU04KaME4TIbjb4JIedBVQx&_nc_ad=z-m&_nc_cid=2034&_nc_zt=23&_nc_ht=scontent.fpat1-1.fna&oh=03_Q7cD2gG_jsdFDtYxdOuJa3t2ElKNK_QIbjcJVMDQjSLIlJY4uA&oe=688C2003" alt="Retail Icon" className="industry-image" />
+              </div>
+              <h3>Retail</h3>
+              <p className="industry-description">
+                The retail landscape is changing rapidly with omni channel trends and evolving customer behavior. We support both physical and digital retail success.
+              </p>
+              <div className="industry-services">
+                <h4>We help you:</h4>
+                <ul>
+                  <li>Build seamless e-commerce platforms</li>
+                  <li>Enhance CRM and personalized marketing</li>
+                  <li>Manage inventory and logistics efficiently</li>
+                  <li>Leverage analytics for customer insights</li>
+                </ul>
+              </div>
+              <div className="industry-outcome">
+                <strong>Outcome:</strong> Higher sales, better customer experiences, and improved operational control.
+              </div>
+            </div>
+
+            <div className="industry-content-card">
+              <div className="industry-icon">
+                <img src="https://scontent.fpat1-1.fna.fbcdn.net/v/t1.15752-9/513265926_3310181492473106_4338510199689079918_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s480x480&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=rw6ObUUPW8QQ7kNvwGLOC6I&_nc_oc=AdlB0Q8TMoUW_d0YxkFCkJImBKcB4RWtPRmtlXtGSxwuCsoOXvvdml09lkvREUHRrhg1fNX3_afr-FDtBgW1Jnzi&_nc_ad=z-m&_nc_cid=2034&_nc_zt=23&_nc_ht=scontent.fpat1-1.fna&oh=03_Q7cD2gEVwY9cgsRRqbtF12X3Rqh5wt9kuWt0mn8oUAAq06zwgQ&oe=688C413C" alt="Energy Icon" className="industry-image" />
+              </div>
+              <h3>Energy</h3>
+              <p className="industry-description">
+                With the global focus on clean and efficient energy, companies need smart, sustainable solutions.
+              </p>
+              <div className="industry-services">
+                <h4>We help you:</h4>
+                <ul>
+                  <li>Digitize operations and grid management</li>
+                  <li>Integrate renewable energy data and tools</li>
+                  <li>Monitor and optimize asset performance</li>
+                  <li>Navigate ESG and regulatory reporting</li>
+                </ul>
+              </div>
+              <div className="industry-outcome">
+                <strong>Outcome:</strong> Future-proofed operations with a focus on sustainability, compliance, and efficiency.
+              </div>
             </div>
           </div>
         </div>
