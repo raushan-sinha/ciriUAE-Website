@@ -41,7 +41,7 @@ function Home() {
       <Navbar />
 
       {/* Home Section */}
-      <section id="home" className="section intro-section">
+      <section id="home" className="section intro-section-home">
         <div className="container">
           <div className="flex-container">
             <div className="video-box">
@@ -50,13 +50,13 @@ function Home() {
               </div>
             </div>
             <div className="content-box">
-              <h1 className="main-title">Welcome to CiriUAE</h1>
+              <h1 className="main-title-home">Welcome to CiriUAE</h1>
               <p className="intro-text">
                 Your trusted partner in management consulting excellence. We provide comprehensive business solutions,
                 strategic guidance, and innovative approaches to help your organization achieve sustainable growth and
                 competitive advantage in today's dynamic market landscape.
               </p>
-              <div className="value-proposition">
+              <div className="value-proposition-home">
                 <h3>Our Value Proposition</h3>
                 <ul>
                   <li>Expert strategic consulting services</li>
@@ -65,7 +65,7 @@ function Home() {
                   <li>Innovative business methodologies</li>
                 </ul>
               </div>
-              <button className="cta-button">Get Started Today</button>
+              <button className="cta-button-home">Get Started Today</button>
             </div>
           </div>
         </div>
@@ -142,7 +142,7 @@ function Home() {
       </section>
 
       {/* Section 3: Services */}
-      <section id="services" className="section services-section">
+      <section id="services" className="section services-section-home">
         <div className="container">
           <h2 className="section-title center">Our Services</h2>
           <p className="services-intro">
@@ -673,9 +673,11 @@ function Home() {
               </div>
               <h3>Marketing Strategy</h3>
               <p>Comprehensive marketing strategies to boost your brand presence</p>
-              <button className="service-button" id="marketing-infoBtn">
-                Learn More
-              </button>
+              <Link to="/marketing">
+                <button className="service-button" id="marketing-infoBtn">
+                  Learn More
+                </button>
+              </Link>
             </div>
             <div className="service-box">
               <div className="mobile-slider">
@@ -683,9 +685,11 @@ function Home() {
               </div>
               <h3>Business Development Strategy</h3>
               <p>Strategic business development plans for sustainable growth</p>
-              <button className="service-button" id="businessDev-infoBtn">
-                Learn More
-              </button>
+              <Link to="/business">
+                <button className="service-button" id="businessDev-infoBtn">
+                  Learn More
+                </button>
+              </Link>
             </div>
             <div className="service-box">
               <div className="mobile-slider">
@@ -693,9 +697,11 @@ function Home() {
               </div>
               <h3>Financial Modeling</h3>
               <p>Advanced financial models for informed decision making</p>
-              <button className="service-button" id="financial-infoBtn">
-                Learn More
-              </button>
+              <Link to="/financial">
+                <button className="service-button" id="financial-infoBtn">
+                  Learn More
+                </button>
+              </Link>
             </div>
             <div className="service-box">
               <div className="mobile-slider">
@@ -703,9 +709,11 @@ function Home() {
               </div>
               <h3>Digital Marketing Plan</h3>
               <p>Cutting-edge digital marketing strategies for online success</p>
-              <button className="service-button" id="digital-infoBtn">
-                Learn More
-              </button>
+              <Link to="/digital">
+                <button className="service-button" id="digital-infoBtn">
+                  Learn More
+                </button>
+              </Link>
             </div>
           </div>
         </div>

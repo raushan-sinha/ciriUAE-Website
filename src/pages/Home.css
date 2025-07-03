@@ -18,21 +18,21 @@ body {
 
 /* Container */
 .container {
-  max-width: 1250px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
 /* Section Styles - Alternating Black and White */
 .section {
-  padding: 80px 0;
+  padding: 80px 20px;
   position: relative;
   overflow: hidden;
 }
 
 /* White sections */
-.intro-section,
-.services-section,
+.intro-section-home,
+.services-section-home,
 .industries-section,
 .blog-section {
   background: #ffffff;
@@ -96,10 +96,10 @@ body {
 }
 
 /* Typography */
-.main-title {
+.main-title-home {
   font-size: 3.5rem;
   font-weight: 800;
-  color: #000000;
+  color: black;
   margin-bottom: 24px;
   line-height: 1.2;
   animation: slideInLeft 0.8s ease-out;
@@ -114,7 +114,7 @@ body {
 
 /* White sections - black titles */
 .intro-section .section-title,
-.services-section .section-title,
+.services-section-home .section-title,
 .industries-section .section-title,
 .blog-section .section-title {
   color: #000000;
@@ -160,7 +160,7 @@ body {
 /* White sections - black text */
 .intro-section .intro-text,
 .intro-section .section-text,
-.services-section .section-text,
+.services-section-home .section-text,
 .industries-section .section-text,
 .blog-section .section-text {
   color: #000000;
@@ -175,8 +175,8 @@ body {
 }
 
 /* Value Proposition */
-.value-proposition {
-  background: rgba(255, 255, 255, 0.1);
+.value-proposition-home {
+  background: black;
   backdrop-filter: blur(10px);
   padding: 30px;
   border-radius: 15px;
@@ -185,24 +185,24 @@ body {
   border-left: 5px solid #667eea;
 }
 
-.value-proposition h3 {
-  color: #000000;
+.value-proposition-home h3 {
+  color: #fff;
   margin-bottom: 20px;
   font-size: 1.3rem;
 }
 
-.value-proposition ul {
+.value-proposition-home ul {
   list-style: none;
 }
 
-.value-proposition li {
+.value-proposition-home li {
   padding: 8px 0;
   position: relative;
   padding-left: 25px;
-  color: #000000;
+  color: #fff;
 }
 
-.value-proposition li::before {
+.value-proposition-home li::before {
   content: "✓";
   position: absolute;
   left: 0;
@@ -211,7 +211,7 @@ body {
 }
 
 /* Buttons */
-.cta-button,
+.cta-button-home,
 .animated-button,
 .service-button,
 .resource-button {
