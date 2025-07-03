@@ -214,9 +214,29 @@ body {
 
 /* ===== UTILITY CLASSES ===== */
 .container {
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 var(--space-4);
+}
+
+/* Blue box-shadow for light sections */
+.section,
+.intro-section-home,
+.services-section-home,
+.industries-section,
+.blog-section,
+.service-boxes-section {
+  box-shadow: 0 4px 24px 0 rgba(43, 174, 235, 0.15);
+}
+
+/* Stronger blue box-shadow for dark sections */
+.about-section,
+.careers-section,
+.case-studies-section,
+.contact-section,
+.resource-cta-section,
+.footer {
+  box-shadow: 0 8px 40px 0 rgba(43, 174, 235, 0.35);
 }
 
 .section {
@@ -280,6 +300,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
+  border-radius: 15px;
 }
 
 .intro-section-home .section-title,
@@ -296,6 +317,8 @@ body {
 .about-section {
   background-color: black;
   color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .about-section .section-title {
@@ -329,6 +352,8 @@ body {
 .services-section-home {
   background-color: white;
   color: var(--neutral-900);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .services-section-home .section-title {
@@ -362,6 +387,8 @@ body {
 .careers-section {
   background-color: black;
   color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .careers-section .careers-main-title,
@@ -425,6 +452,8 @@ body {
 .industries-section {
   background-color: white;
   color: var(--neutral-900);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .industries-section .section-title {
@@ -475,6 +504,8 @@ body {
 .case-studies-section {
   background-color: black;
   color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .case-studies-section .section-title {
@@ -502,6 +533,8 @@ body {
 .blog-section {
   background-color: white;
   color: var(--neutral-900);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .blog-section .section-title {
@@ -534,6 +567,8 @@ body {
 .contact-section {
   background-color: black;
   color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .contact-section .section-title {
@@ -579,6 +614,8 @@ body {
 .service-boxes-section {
   background-color: white;
   color: var(--neutral-900);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .service-boxes-section .section-title {
@@ -607,6 +644,8 @@ body {
 .resource-cta-section {
   background-color: black;
   color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .resource-cta-section .section-title {
@@ -940,7 +979,7 @@ body {
 
 .careers-intro {
   font-size: 1.125rem;
-  max-width: 800px;
+  width: 100%;
   margin: 0 auto;
   animation: fadeInUp 0.8s ease-out 0.4s both;
 }
@@ -952,7 +991,7 @@ body {
 }
 
 .form-container {
-  max-width: 600px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -1030,8 +1069,7 @@ body {
 .industries-intro {
   text-align: center;
   font-size: 1.125rem;
-  margin-bottom: var(--space-12);
-  max-width: 800px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   animation: fadeInUp 0.8s ease-out 0.3s both;
@@ -1137,6 +1175,7 @@ body {
 /* ===== BLOG SECTION ===== */
 .blog-preview {
   margin: var(--space-8) 0;
+  width: 100%;
 }
 
 .blog-item {
@@ -1345,6 +1384,8 @@ body {
   background: var(--neutral-900);
   color: white;
   padding: var(--space-16) 0 var(--space-8);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .footer-content {
@@ -1356,7 +1397,7 @@ body {
 
 .newsletter-section {
   flex: 1;
-  max-width: 400px;
+  width: 100%;
 }
 
 .footer-heading {
@@ -1472,7 +1513,7 @@ body {
 
 .contact-links {
   position: absolute;
-  bottom: 70px;
+  bottom: 80px;
   right: 0;
   display: flex;
   flex-direction: column;
@@ -1496,7 +1537,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: white;
+  background: black;
   box-shadow: var(--shadow-md);
   transition: all var(--transition-normal);
   text-decoration: none;

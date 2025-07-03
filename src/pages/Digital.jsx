@@ -1,4 +1,5 @@
 import './Digital.css'
+import { Link } from 'react-router-dom';
 
 function Digital() {
     return (
@@ -61,7 +62,7 @@ function Digital() {
                         </div>
                     </div>
                 </section>
-                
+
                 <section class="competitive-edge">
                     <div class="container">
                         <h2 class="section-title">Stay Ahead of the Competition</h2>
@@ -94,7 +95,9 @@ function Digital() {
                                 data-backed plan that's executed with precision.</p>
                             <p class="cta-highlight">Let us build a digital marketing strategy that puts your brand in front of
                                 the right people — at the right time — on the right platforms.</p>
-                            <button class="cta-button primary large" id="journeyBtn">Start Your Digital Journey</button>
+                            <Link to="/contact">
+                                <button class="cta-button primary large" id="journeyBtn">Start Your Digital Journey</button>
+                            </Link>
                         </div>
                     </div>
                 </section>

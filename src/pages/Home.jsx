@@ -10,7 +10,7 @@ function Home() {
       icon: <FaXTwitter />,
       url: 'https://x.com/CiriUAE',
       title: 'Follow us on X',
-      color: '#000',
+      color: '#fff',
       fontSize: '30px'
     },
     {

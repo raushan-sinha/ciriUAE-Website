@@ -3,14 +3,6 @@ import './Resources.css'
 function Resources() {
     return (
         <>
-            {/* Hero Section  */}
-            <section class="hero">
-                <div class="container">
-                    <div class="hero-content">
-                        <h1 class="hero-title">Resources</h1>
-                    </div>
-                </div>
-            </section>
             {/* Main Content Section */}
             <main className="main-content">
                 <div className="container">
