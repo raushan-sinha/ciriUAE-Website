@@ -519,7 +519,7 @@ function Home() {
                 </blockquote>
                 <cite>- CEO, CiriUAE (Tech Startup)</cite>
               </div>
-              <Link to="/casestudies" target='_blank'>
+              <Link to="/casestudies">
                 <button className="animated-button" id="case-infoBtn">
                   <span>More Info</span>
                   <div className="button-animation"></div>
@@ -675,7 +675,7 @@ function Home() {
               </div>
               <h3>Marketing Strategy</h3>
               <p>Comprehensive marketing strategies to boost your brand presence</p>
-              <Link to="/marketing" target='_blank'>
+              <Link to="/marketing">
                 <button className="service-button" id="marketing-infoBtn">
                   Learn More
                 </button>
@@ -687,7 +687,7 @@ function Home() {
               </div>
               <h3>Business Development Strategy</h3>
               <p>Strategic business development plans for sustainable growth</p>
-              <Link to="/business" target='_blank'>
+              <Link to="/business">
                 <button className="service-button" id="businessDev-infoBtn">
                   Learn More
                 </button>
