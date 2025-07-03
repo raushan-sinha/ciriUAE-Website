@@ -65,7 +65,7 @@ function Home() {
                   <li>Innovative business methodologies</li>
                 </ul>
               </div>
-              <Link to="/contact" target='_blank'>
+              <Link to="/contact">
                 <button className="cta-button-home">Get Started Today</button>
               </Link>
             </div>
@@ -556,10 +556,12 @@ function Home() {
                   <p>Comprehensive analysis of emerging opportunities...</p>
                 </div>
               </div>
-              <button className="animated-button" id="blog-infoBtn">
-                <span>More Info</span>
-                <div className="button-animation"></div>
-              </button>
+              <Link to="/blog">
+                <button className="animated-button" id="blog-infoBtn">
+                  <span>More Info</span>
+                  <div className="button-animation"></div>
+                </button>
+              </Link>
             </div>
           </div>
         </div>
