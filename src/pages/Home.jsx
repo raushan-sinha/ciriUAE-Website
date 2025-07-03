@@ -730,9 +730,11 @@ function Home() {
               </div>
               <h3>Resources</h3>
               <p>Library of whitepapers, e-books, webinars, and downloadable resources</p>
-              <button className="resource-button" id="resource-infoBtn">
-                Access Resources
-              </button>
+              <Link to="/resources">
+                <button className="resource-button" id="resource-infoBtn">
+                  Access Resources
+                </button>
+              </Link>
             </div>
             <div className="resource-box">
               <div className="mobile-slider">
@@ -740,9 +742,11 @@ function Home() {
               </div>
               <h3>News</h3>
               <p>Latest news and press releases about CiriUAE</p>
-              <button className="resource-button" id="news-infoBtn">
-                Read News
-              </button>
+              <Link to="/news">
+                <button className="resource-button" id="news-infoBtn">
+                  Read News
+                </button>
+              </Link>
             </div>
             <div className="resource-box">
               <div className="mobile-slider">
@@ -750,9 +754,11 @@ function Home() {
               </div>
               <h3>FAQs</h3>
               <p>Frequently asked questions about CiriUAE services and company</p>
-              <button className="resource-button" id="faqs-infoBtn">
-                View FAQs
-              </button>
+              <Link to="/faqs">
+                <button className="resource-button" id="faqs-infoBtn">
+                  View FAQs
+                </button>
+              </Link>
             </div>
             <div className="cta-box">
               <div className="mobile-slider">
@@ -760,9 +766,11 @@ function Home() {
               </div>
               <h3>Get in Touch</h3>
               <p>Contact CiriUAE for more information about our services</p>
-              <button className="cta-button" id="resources-contactBn">
-                Contact Us
-              </button>
+              <Link to="/contact">
+                <button className="cta-button" id="resources-contactBn">
+                  Contact Us
+                </button>
+              </Link>
             </div>
             <div className="cta-box">
               <div className="mobile-slider">
@@ -770,9 +778,11 @@ function Home() {
               </div>
               <h3>Request a Consultation</h3>
               <p>Schedule a consultation with our expert consultants</p>
-              <button className="cta-button" id="consultation-infoBtn">
-                Book Consultation
-              </button>
+              <Link to="/careers">
+                <button className="cta-button" id="consultation-infoBtn">
+                  Book Consultation
+                </button>
+              </Link>
             </div>
           </div>
         </div>
