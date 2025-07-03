@@ -15,7 +15,7 @@ function Home() {
     },
     {
       icon: <FaWhatsapp />,
-      url: 'https://wa.me/971501234567',
+      url: 'https://wa.me/971524308085',
       title: 'Chat on WhatsApp',
       color: '#25d366',
       fontSize: '30px'
