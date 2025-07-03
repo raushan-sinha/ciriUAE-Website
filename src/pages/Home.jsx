@@ -10,7 +10,7 @@ function Home() {
       icon: <FaXTwitter />,
       url: 'https://x.com/CiriUAE',
       title: 'Follow us on X',
-      color: '#fff',
+      color: '#000',
       fontSize: '30px'
     },
     {
@@ -51,7 +51,7 @@ function Home() {
             </div>
             <div className="content-box">
               <h1 className="main-title-home">Welcome to CiriUAE</h1>
-              <p className="intro-text">
+              <p className="intro-text-home">
                 Your trusted partner in management consulting excellence. We provide comprehensive business solutions,
                 strategic guidance, and innovative approaches to help your organization achieve sustainable growth and
                 competitive advantage in today's dynamic market landscape.
@@ -65,7 +65,9 @@ function Home() {
                   <li>Innovative business methodologies</li>
                 </ul>
               </div>
-              <button className="cta-button-home">Get Started Today</button>
+              <Link to="/contact" target='_blank'>
+                <button className="cta-button-home">Get Started Today</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -75,9 +77,9 @@ function Home() {
       <section id="about" className="section about-section">
         <div className="container">
           <div className="flex-container reverse">
-            <div className="image-box">
+            <div className="image-box-about">
               <div className="mobile-slider">
-                <img src="https://scontent.fpat3-1.fna.fbcdn.net/v/t1.15752-9/511994088_689389990579515_7388488743904703002_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=YYYsIkyngk8Q7kNvwFAZhzb&_nc_oc=AdkFGqls-blAUoyJ5FnmsQEjwXhWdYVq7bHYza8V5L2GQwSp9BMXiRhcsMtPLBu_a4o&_nc_ad=z-m&_nc_cid=2034&_nc_zt=23&_nc_ht=scontent.fpat3-1.fna&oh=03_Q7cD2gG7eu4-ActGE1rpywr2uEeIQ1bfJIokz88bKSvPSbmacQ&oe=688B7EAD" alt="About CiriUAE" className="section-image" />
+                <img src="https://media.istockphoto.com/id/1438634414/photo/business-women-laptop-and-and-happy-team-in-office-for-web-design-collaboration-and-training.jpg?b=1&s=612x612&w=0&k=20&c=t_hrgClW0KLTZmhR9UD50ovmX6W16SIZ0TTZPAGj3ek=" />
               </div>
             </div>
             <div className="content-box">
@@ -301,20 +303,20 @@ function Home() {
           <div className="form-section" id="application-form">
             <form className="form-container" action="#" method="POST" encType="multipart/form-data">
               <div className="form-row">
-                <div className="form-group">
+                <div className="form-group-home">
                   <label htmlFor="name">Name</label>
                   <input type="text" id="name" name="name" required />
                 </div>
-                <div className="form-group">
+                <div className="form-group-home">
                   <label htmlFor="phone">Phone</label>
                   <input type="tel" id="phone" name="phone" />
                 </div>
               </div>
-              <div className="form-group">
+              <div className="form-group-home">
                 <label htmlFor="email">Email*</label>
                 <input type="email" id="email" name="email" required />
               </div>
-              <div className="form-group">
+              <div className="form-group-home">
                 <label htmlFor="message">Message</label>
                 <textarea
                   id="message"
@@ -322,7 +324,7 @@ function Home() {
                   placeholder="Tell us about yourself and why you'd like to join our team..."
                 ></textarea>
               </div>
-              <div className="form-group">
+              <div className="form-group-home">
                 <label htmlFor="resume">Attach Resume</label>
                 <div className="file-upload">
                   <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" multiple />
@@ -330,7 +332,7 @@ function Home() {
                     📎 Click to upload or drag files here
                   </label>
                 </div>
-                <div className="attachments-info">Attachments (0)</div>
+                <div className="attachments-info-home">Attachments (0)</div>
               </div>
               <button type="submit" className="submit-btn">
                 Submit Application
@@ -501,7 +503,7 @@ function Home() {
           <div className="flex-container">
             <div className="image-box">
               <div className="mobile-slider">
-                <img src="https://scontent.fpat3-1.fna.fbcdn.net/v/t1.15752-9/511345331_1920110802153860_2527275968575791835_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=LQCVkhCN80oQ7kNvwGIy5rz&_nc_oc=AdmQenN5sS0D0uBFQrFKtgK3BVQh7rcSiOmquU49eRRHUDTpvLGuHKWUiORRQ99HD04&_nc_ad=z-m&_nc_cid=2034&_nc_zt=23&_nc_ht=scontent.fpat3-1.fna&oh=03_Q7cD2gG3zcFgwstZnVw7CtvN1DyJkfjsa9FCSREHEHzWnv_hKw&oe=688B8425" alt="Case Studies" className="section-image" />
+                <img src="https://t4.ftcdn.net/jpg/03/67/29/65/240_F_367296595_GI2IT7akPRZ3AMOLju1e2m7H4txpnVFu.jpg" alt="Case Studies" className="section-image" />
               </div>
             </div>
             <div className="content-box">
@@ -517,7 +519,7 @@ function Home() {
                 </blockquote>
                 <cite>- CEO, CiriUAE (Tech Startup)</cite>
               </div>
-              <Link to="/casestudies">
+              <Link to="/casestudies" target='_blank'>
                 <button className="animated-button" id="case-infoBtn">
                   <span>More Info</span>
                   <div className="button-animation"></div>
@@ -534,7 +536,7 @@ function Home() {
           <div className="flex-container reverse">
             <div className="image-box">
               <div className="mobile-slider">
-                <img src="https://scontent.fpat3-2.fna.fbcdn.net/v/t1.15752-9/509289697_1217712170035629_4094386884823209027_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=104&ccb=1-7&_nc_sid=0024fc&_nc_ohc=SlkP6ieLWw0Q7kNvwGYJtqA&_nc_oc=AdnD5YhCFoZLCtuMSsN6Cpii3zSoq3B5PJ2FzWTk4VLkpmKYuMLj91KfOxPmxa-76IU&_nc_ad=z-m&_nc_cid=2034&_nc_zt=23&_nc_ht=scontent.fpat3-2.fna&oh=03_Q7cD2gFP0wUJdqAOvRlSfCBB7rT1NXnktJhL4tDrSnQLuzfJEQ&oe=688B6F3B" alt="Blog Insights" className="section-image" />
+                <img src="https://t3.ftcdn.net/jpg/00/98/23/06/240_F_98230603_qN0pym9wcjmWwoek0no42mA1uL6uGYLx.jpg" alt="Blog Insights" className="section-image" />
               </div>
             </div>
             <div className="content-box">
@@ -673,7 +675,7 @@ function Home() {
               </div>
               <h3>Marketing Strategy</h3>
               <p>Comprehensive marketing strategies to boost your brand presence</p>
-              <Link to="/marketing">
+              <Link to="/marketing" target='_blank'>
                 <button className="service-button" id="marketing-infoBtn">
                   Learn More
                 </button>
@@ -685,7 +687,7 @@ function Home() {
               </div>
               <h3>Business Development Strategy</h3>
               <p>Strategic business development plans for sustainable growth</p>
-              <Link to="/business">
+              <Link to="/business" target='_blank'>
                 <button className="service-button" id="businessDev-infoBtn">
                   Learn More
                 </button>

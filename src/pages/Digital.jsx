@@ -61,52 +61,7 @@ function Digital() {
                         </div>
                     </div>
                 </section>
-
-                <section id="approach" class="approach">
-                    <div class="container">
-                        <div class="approach-content">
-                            <div class="approach-text">
-                                <h2>Our Strategic Approach</h2>
-                                <p>Our team works closely with you to define clear objectives and key performance indicators
-                                    (KPIs) at every stage. We use advanced tools and platforms to gain insights into customer
-                                    behavior, market trends, and campaign performance.</p>
-
-                                <div class="features-list">
-                                    <div class="feature-item">
-                                        <span class="feature-icon">🎯</span>
-                                        <div>
-                                            <h4>Customized</h4>
-                                            <p>Tailored to your specific business goals, audience, and budget</p>
-                                        </div>
-                                    </div>
-                                    <div class="feature-item">
-                                        <span class="feature-icon">🔗</span>
-                                        <div>
-                                            <h4>Integrated</h4>
-                                            <p>All marketing channels work together to create a seamless user experience</p>
-                                        </div>
-                                    </div>
-                                    <div class="feature-item">
-                                        <span class="feature-icon">⚡</span>
-                                        <div>
-                                            <h4>Agile</h4>
-                                            <p>Designed to adapt to algorithm changes, market shifts, and evolving customer
-                                                needs</p>
-                                        </div>
-                                    </div>
-                                    <div class="feature-item">
-                                        <span class="feature-icon">📈</span>
-                                        <div>
-                                            <h4>Performance-Driven</h4>
-                                            <p>Focused on delivering ROI, conversions, and brand growth</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
+                
                 <section class="competitive-edge">
                     <div class="container">
                         <h2 class="section-title">Stay Ahead of the Competition</h2>

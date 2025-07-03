@@ -5,12 +5,12 @@ function Business() {
         <>
             {/* Main Content  */}
             <main className="main-content">
-             {/* Introduction Section */}
+                {/* Introduction Section */}
                 <section className="intro-section">
                     <div className="container">
                         <h2>Strategic Business Development</h2>
                         <p>
-                        At CiriUAE, we create strategic business development plans that focus on long-term success and
+                            At CiriUAE, we create strategic business development plans that focus on long-term success and
                             sustainable growth. Whether you're launching a new venture, expanding into new markets, or scaling
                             operations, our goal is to position your business for consistent, measurable advancement.
                             We begin by analyzing your current business model, understanding your core strengths, market trends,
@@ -130,34 +130,6 @@ function Business() {
                     </div>
                 </section>
             </main>
-            {/* Footer */}
-            <footer id="contact" className="footer">
-                <div className="container">
-                    <div className="footer-content">
-                        <div className="footer-section">
-                            <h3>CiriUAE</h3>
-                            <p>Strategic business development for sustainable growth and long-term success.</p>
-                        </div>
-                        <div className="footer-section">
-                            <h4>Services</h4>
-                            <ul>
-                                <li>Market Expansion</li>
-                                <li>Strategic Partnerships</li>
-                                <li>Sales Enablement</li>
-                                <li>Process Optimization</li>
-                            </ul>
-                        </div>
-                        <div className="footer-section">
-                            <h4>Contact</h4>
-                            <p>Email: info@CiriUAE.com</p>
-                            <p>Phone: +971 XX XXX XXXX</p>
-                        </div>
-                    </div>
-                    <div className="footer-bottom">
-                        <p>&copy; 2025 CiriUAE. All rights reserved.</p>
-                    </div>
-                </div>
-            </footer>
 
         </>
     );

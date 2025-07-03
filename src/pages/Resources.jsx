@@ -139,39 +139,10 @@ function Resources() {
                                 free to access or download — simply register or log in to your CiriUAE account for instant
                                 access.
                             </p>
-                            <div className="cta-buttons">
-                                <button className="btn btn-primary">Browse Resources</button>
-                                <button className="btn btn-secondary" id="createAccBtn">Create Account</button>
-                            </div>
                         </div>
                     </section>
                 </div>
             </main>
-
-            {/* Footer Section */}
-            <footer className="footer">
-                <div className="container">
-                    <div className="footer-content">
-                        <div className="footer-section footer-col-1">
-                            <h3 className="footer-title">CiriUAE</h3>
-                            <p className="footer-text">Empowering businesses with expert insights and practical resources for
-                                sustainable growth.</p>
-                        </div>
-                        <div className="footer-section footer-col-2">
-                            <h4 className="footer-subtitle">Quick Links</h4>
-                            <ul className="footer-links">
-                                <li><a href="#" className="footer-link">Home</a></li>
-                                <li><a href="#" className="footer-link">Services</a></li>
-                                <li><a href="#" className="footer-link">Resources</a></li>
-                                <li><a href="#" className="footer-link">About</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="footer-bottom">
-                        <p>&copy; 2025 CiriUAE. All rights reserved.</p>
-                    </div>
-                </div>
-            </footer>
         </>
     );
 }

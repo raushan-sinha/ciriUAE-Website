@@ -256,9 +256,9 @@ function CaseStudies() {
                             measurable results. Get in touch to explore how we can create a customized solution for your
                             business challenges.
                         </p>
-                        <div className="cta-buttons">
+                        <div className="cta-buttons-case">
                             <Link to="/contact">
-                                <a href="#" className="btn btn-primary">Start Your Transformation</a>
+                                <a href="#" className="btn btn-primary-case">Start Your Transformation</a>
                             </Link>
                         </div>
                     </div>
