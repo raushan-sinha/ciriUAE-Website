@@ -155,7 +155,6 @@ function Home() {
             <div className="service-content-card">
               <div className="service-icon">
                 <img src="https://scontent.fpat2-1.fna.fbcdn.net/v/t1.15752-9/509303090_764737512885971_2968192881401211672_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s480x480&_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=JEdqRz4jtOQQ7kNvwE8iwW1&_nc_oc=Adnj2uOccEbIDQKrhIgspOsdVBVK7wuW2bOcvFnbNFrTzBNZJTT1gwCm13TlxFpWg4M&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-1.fna&oh=03_Q7cD2gEI1zhwM1qVmzijpk_8jdkagHPft4FFw8iQ8gWXAU8qkg&oe=688C582D" alt="Marketing Strategy Icon" className="service-image" />
-                <div className="emoji-overlay">📈</div>
               </div>
               <h3>Marketing Strategy</h3>
               <p className="service-description">
@@ -166,7 +165,6 @@ function Home() {
             <div className="service-content-card">
               <div className="service-icon">
                 <img src="https://scontent.fpat2-2.fna.fbcdn.net/v/t1.15752-9/512681648_1316336106516302_3684395483662138063_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=89LryC7-qDYQ7kNvwF2Hcom&_nc_oc=Adnz2xOkJukUR2QUNL3VaKwV6xso23_EJWQVx2HwCvpBcaa2NWi9fp2uSV76dfs7RAQ&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-2.fna&oh=03_Q7cD2gH7NUT8QjW2BnkKd6KM2LFLCq1FhSsJnPJT1V9yrT_Pkg&oe=688C657A" alt="New Business Territory Icon" className="service-image" />
-                <div className="emoji-overlay">🌍</div>
               </div>
               <h3>New Business Territory Services</h3>
               <p className="service-description">
@@ -177,7 +175,6 @@ function Home() {
             <div className="service-content-card">
               <div className="service-icon">
                 <img src="https://scontent.fpat2-7.fna.fbcdn.net/v/t1.15752-9/511040692_697924176417903_6490408146052389315_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=oXsPTT2AobwQ7kNvwEKpMPQ&_nc_oc=AdlsUmE-Yh-afPgchfEBQnhrxY6-bzYAD3weaWpOJiDMbfepS_63Pf4W9cZwnkuKsYo&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-7.fna&oh=03_Q7cD2gGpyAqfBJy2_HI9J7lHxnKd-MjhKw1ctyTta-BXktjLRw&oe=688C4BEE" alt="Business Development Icon" className="service-image" />
-                <div className="emoji-overlay">🚀</div>
               </div>
               <h3>Business Development Strategy</h3>
               <p className="service-description">
@@ -188,7 +185,6 @@ function Home() {
             <div className="service-content-card">
               <div className="service-icon">
                 <img src="https://scontent.fpat2-7.fna.fbcdn.net/v/t1.15752-9/513665286_736129518786332_6974681536189359121_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=DnWBjm5Bky4Q7kNvwFz9V6e&_nc_oc=Adn9byMTcJhUplhuP4QaVPblfHtRrOkGaUcgd6W3UC7BP2aX0wVofrcl4nd5cAXVxEg&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-7.fna&oh=03_Q7cD2gE1IYCZopc32uwSrA88lQvxFJzdgqdktPYH8D2r6e-CgA&oe=688C6D0C" alt="Project Management Icon" className="service-image" />
-                <div className="emoji-overlay">📋</div>
               </div>
               <h3>Project Management</h3>
               <p className="service-description">
@@ -199,7 +195,6 @@ function Home() {
             <div className="service-content-card">
               <div className="service-icon">
                 <img src="https://scontent.fpat2-7.fna.fbcdn.net/v/t1.15752-9/512094944_1391663771895644_8217416743799240671_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=evZZveIyxQcQ7kNvwE6qcMG&_nc_oc=AdnNvHr-sLDmhqUPMdnKv6DlIiBLjqAxGIhrq_aeqWSQX5Ia0C2iFgvJJtAZxnb_Yl4&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-7.fna&oh=03_Q7cD2gHomxmc-mY1wW5RYWqeklIiN2J1KOQgqhvsOoLhnK8t7Q&oe=688C4BB9" alt="Product Marketing Icon" className="service-image" />
-                <div className="emoji-overlay">🎯</div>
               </div>
               <h3>Product Marketing Plans</h3>
               <p className="service-description">
@@ -210,7 +205,6 @@ function Home() {
             <div className="service-content-card">
               <div className="service-icon">
                 <img src="https://scontent.fpat2-2.fna.fbcdn.net/v/t1.15752-9/503114812_2249845348765437_2902754464924939348_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s480x480&_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=rXQjwjnb5w8Q7kNvwEgXFhh&_nc_oc=AdlsYGjRec47o_rhoVW8KLddQzYVlry6-yy2DwVb5qlAHhEilU2bhZqrUW6XmdM4Si8&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-2.fna&oh=03_Q7cD2gFvfihOxNlQhuREV5GUneMwLscCWwx6OJeu-XGm1fEjLA&oe=688C49B5" alt="Business Management Icon" className="service-image" />
-                <div className="emoji-overlay">⚙️</div>
               </div>
               <h3>Business Management Solutions</h3>
               <p className="service-description">
@@ -221,7 +215,6 @@ function Home() {
             <div className="service-content-card">
               <div className="service-icon">
                 <img src="https://scontent.fpat2-4.fna.fbcdn.net/v/t1.15752-9/508610171_750006684230873_1549855642984009963_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=rCHnKHVrbeoQ7kNvwFV6RPi&_nc_oc=Adlx1ZliKCPY8IddgF8JgTJ8LO9ylzgFCdefXl_c8oQdirXrTw_bDbNTesNMnsGmXaU&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-4.fna&oh=03_Q7cD2gHpQOVzKZQ-P_1dqEWwKZv8oqby0_w2CMEUW3PbebGkBw&oe=688C6A1E" alt="Distribution Network Icon" className="service-image" />
-                <div className="emoji-overlay">🌐</div>
               </div>
               <h3>Development of Distribution Network</h3>
               <p className="service-description">
@@ -232,7 +225,6 @@ function Home() {
             <div className="service-content-card">
               <div className="service-icon">
                 <img src="https://scontent.fpat2-4.fna.fbcdn.net/v/t1.15752-9/508912755_1083698900491210_4078353333278929228_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=nP0ygizPPlEQ7kNvwHl--12&_nc_oc=AdmL-iLE2SaMbITO58rwGl5WsjNCDWFOjvpr8NPlFcVZmDmOpG5ngG6fBqEta1iGwn8&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-4.fna&oh=03_Q7cD2gFAeoMNv22P_2YLHcJawwx24hIUC3wLbiA_gV_l6TOcug&oe=688C5F76" alt="Distribution Roadmap Icon" className="service-image" />
-                <div className="emoji-overlay">🗺️</div>
               </div>
               <h3>Distribution Network Road Map</h3>
               <p className="service-description">
@@ -243,7 +235,6 @@ function Home() {
             <div className="service-content-card">
               <div className="service-icon">
                 <img src="https://scontent.fpat2-2.fna.fbcdn.net/v/t1.15752-9/510318959_737410065297554_7641379433325896808_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=RdWpdVKQkfEQ7kNvwFlkilE&_nc_oc=AdkP4ESfxSJxg4CWW1Rm--zJhL3G3_tlg6HHlNI7XYeFyekDgwyZ_oYVQKOttIDFfdA&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-2.fna&oh=03_Q7cD2gG0UBrWo4BIc9l-1SrnIuGl99nHPWvvkxGcB1YME1CrVw&oe=688C4A50" alt="Problem Solving Icon" className="service-image" />
-                <div className="emoji-overlay">🔧</div>
               </div>
               <h3>Problem Solving with Existing Systems</h3>
               <p className="service-description">
@@ -254,7 +245,6 @@ function Home() {
             <div className="service-content-card">
               <div className="service-icon">
                 <img src="https://scontent.fpat2-7.fna.fbcdn.net/v/t1.15752-9/509745156_4137746703129274_1615314728760735636_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=FxBVlGNYSicQ7kNvwHqZ_5u&_nc_oc=AdlryRvWx8euz62AkwzXZ3qg_EnP8AqeQrr08inLMvqmq3jaW-0XkBZUipfiZGKFN94&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-7.fna&oh=03_Q7cD2gHW1lPIAunVN9Pg6cjquU6CkczTaF1gZ5wsGZwVxMt0lg&oe=688C53CA" alt="Strategic Partnerships Icon" className="service-image" />
-                <div className="emoji-overlay">🤝</div>
               </div>
               <h3>Strategic Partnerships Planning</h3>
               <p className="service-description">
@@ -265,7 +255,6 @@ function Home() {
             <div className="service-content-card">
               <div className="service-icon">
                 <img src="https://scontent.fpat2-4.fna.fbcdn.net/v/t1.15752-9/509313269_2461844370869086_4129815263051984865_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=J4plhG5GJ4sQ7kNvwHFe3K7&_nc_oc=AdkcRhCPkGs8xOv3jedRqmJmGpDNtxpip98ztHsXtY_tDfUl_yXqaAn0bl5SeAjOV2M&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-4.fna&oh=03_Q7cD2gG6TgPJDMI2bLfwKay3Q4bk-BOUHNQVWVo0Hxka-wNQqQ&oe=688C48C8" alt="Collaboration Solutions Icon" className="service-image" />
-                <div className="emoji-overlay">🔗</div>
               </div>
               <h3>Collaboration Solutions</h3>
               <p className="service-description">
@@ -276,7 +265,6 @@ function Home() {
             <div className="service-content-card">
               <div className="service-icon">
                 <img src="https://scontent.fpat2-1.fna.fbcdn.net/v/t1.15752-9/511152013_1305730264448362_60703728244716014_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=4mIz3QvkaKQQ7kNvwGitrkJ&_nc_oc=AdmeUWEdZN5l0k_ucn5rr1FMVg7Rxvgu44_NB3TgFxPv849AbDSl6th9GBUJ2zIYrno&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=scontent.fpat2-1.fna&oh=03_Q7cD2gHmo3V8p3GDP-gBEM9qyi_5mQquwo4G-1UlOBHMR6buFg&oe=688C4879" alt="Financial Modeling Icon" className="service-image" />
-                <div className="emoji-overlay">💰</div>
               </div>
               <h3>Financial Modeling for New Business</h3>
               <p className="service-description">
